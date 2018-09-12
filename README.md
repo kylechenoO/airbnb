@@ -7,4 +7,4 @@
 4.   The main code is in airbnb.ipynb, and i export it as airbnb.html.
 
 ##   blog post
-<a href='https://hacking-linux.com/airbnb-data-analyze-report/'>https://hacking-linux.com/airbnb-data-analyze-report/</a>
+<a href='https://hacking-linux.com/big-surprise-do-you-know-where-is-the-best-location-to-rent-a-house-on-airbnb/'>https://hacking-linux.com/big-surprise-do-you-know-where-is-the-best-location-to-rent-a-house-on-airbnb/</a>
