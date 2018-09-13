@@ -11783,7 +11783,31 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Prepare-and-Download-DataSet">Prepare and Download DataSet<a class="anchor-link" href="#Prepare-and-Download-DataSet">&#182;</a></h3>
+<h3 id="Business-Understanding">Business Understanding<a class="anchor-link" href="#Business-Understanding">&#182;</a></h3><ul>
+<li>As we know, Airbnb is the biggest house rent platform on internet. On the official website, we can search and find some house in location and rent it. </li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Data-Understanding">Data Understanding<a class="anchor-link" href="#Data-Understanding">&#182;</a></h3><ul>
+<li>At this section, we download the dataset for Seattle and Boston. Explore some data, and translate it into Chinese (because of I'm Chinese). </li>
+<li>The dataset of Seattle and Boston, they both have three csv file. The 'calendar.csv' saved some calendar infomation. The 'listings.csv' saved some listing infomation. And the 'reviews.csv' saved some review infomation. Both of the feature which named listing_id in 'calendar.csv' and 'reviews.csv' are related to the feature which named id in 'listings.csv'.</li>
+<li>In this section, I will download the dataset from my OSS server, and load them into dataframe. And you can find some infomation about the raw data from dataset after all.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Prepare-and-Download-DataSet">Prepare and Download DataSet<a class="anchor-link" href="#Prepare-and-Download-DataSet">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -11910,7 +11934,7 @@ data/boston/reviews 100%[===================&gt;]  26.05M  16.2MB/s    in 1.6s
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="import-pkgs">import pkgs<a class="anchor-link" href="#import-pkgs">&#182;</a></h3>
+<h4 id="import-pkgs">import pkgs<a class="anchor-link" href="#import-pkgs">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -11942,7 +11966,7 @@ data/boston/reviews 100%[===================&gt;]  26.05M  16.2MB/s    in 1.6s
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Declare-Global-Values">Declare Global Values<a class="anchor-link" href="#Declare-Global-Values">&#182;</a></h3>
+<h4 id="Declare-Global-Values">Declare Global Values<a class="anchor-link" href="#Declare-Global-Values">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -11975,7 +11999,7 @@ data/boston/reviews 100%[===================&gt;]  26.05M  16.2MB/s    in 1.6s
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Load-Data">Load Data<a class="anchor-link" href="#Load-Data">&#182;</a></h3>
+<h4 id="Load-Data">Load Data<a class="anchor-link" href="#Load-Data">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -12003,7 +12027,7 @@ data/boston/reviews 100%[===================&gt;]  26.05M  16.2MB/s    in 1.6s
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Explore-Data">Explore Data<a class="anchor-link" href="#Explore-Data">&#182;</a></h3>
+<h4 id="Explore-Data">Explore Data<a class="anchor-link" href="#Explore-Data">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -12011,7 +12035,7 @@ data/boston/reviews 100%[===================&gt;]  26.05M  16.2MB/s    in 1.6s
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="df_seattle_clendar_raw:">df_seattle_clendar_raw:<a class="anchor-link" href="#df_seattle_clendar_raw:">&#182;</a></h4>
+<h5 id="df_seattle_clendar_raw:">df_seattle_clendar_raw:<a class="anchor-link" href="#df_seattle_clendar_raw:">&#182;</a></h5>
 </div>
 </div>
 </div>
@@ -12193,7 +12217,7 @@ memory usage: 42.5+ MB
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="df_seattle_listings_raw:">df_seattle_listings_raw:<a class="anchor-link" href="#df_seattle_listings_raw:">&#182;</a></h4>
+<h5 id="df_seattle_listings_raw:">df_seattle_listings_raw:<a class="anchor-link" href="#df_seattle_listings_raw:">&#182;</a></h5>
 </div>
 </div>
 </div>
@@ -13006,7 +13030,7 @@ memory usage: 2.7+ MB
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="df_seattle_reviews_raw:">df_seattle_reviews_raw:<a class="anchor-link" href="#df_seattle_reviews_raw:">&#182;</a></h4>
+<h5 id="df_seattle_reviews_raw:">df_seattle_reviews_raw:<a class="anchor-link" href="#df_seattle_reviews_raw:">&#182;</a></h5>
 </div>
 </div>
 </div>
@@ -13212,7 +13236,7 @@ memory usage: 3.9+ MB
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="df_boston_clendar_raw:">df_boston_clendar_raw:<a class="anchor-link" href="#df_boston_clendar_raw:">&#182;</a></h4>
+<h5 id="df_boston_clendar_raw:">df_boston_clendar_raw:<a class="anchor-link" href="#df_boston_clendar_raw:">&#182;</a></h5>
 </div>
 </div>
 </div>
@@ -13394,7 +13418,7 @@ memory usage: 39.9+ MB
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="df_boston_listings_raw:">df_boston_listings_raw:<a class="anchor-link" href="#df_boston_listings_raw:">&#182;</a></h4>
+<h5 id="df_boston_listings_raw:">df_boston_listings_raw:<a class="anchor-link" href="#df_boston_listings_raw:">&#182;</a></h5>
 </div>
 </div>
 </div>
@@ -14225,7 +14249,7 @@ memory usage: 2.6+ MB
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="df_boston_reviews_raw:">df_boston_reviews_raw:<a class="anchor-link" href="#df_boston_reviews_raw:">&#182;</a></h4>
+<h5 id="df_boston_reviews_raw:">df_boston_reviews_raw:<a class="anchor-link" href="#df_boston_reviews_raw:">&#182;</a></h5>
 </div>
 </div>
 </div>
@@ -14431,7 +14455,19 @@ memory usage: 3.1+ MB
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Check-NaN-Values">Check NaN Values<a class="anchor-link" href="#Check-NaN-Values">&#182;</a></h3>
+<h3 id="Prepare-Data">Prepare Data<a class="anchor-link" href="#Prepare-Data">&#182;</a></h3><ul>
+<li>In this section, I will do some action with NaN values. Above all, you can find I do some deepcopy from raw data, because of I don't want to change the raw data here. At first I will check all the features have NaN values. And have a look of the NaN values of the features. If there's necessary to drop the columns of data, then drop it. If there's all of NaN values of one feature, then drop it. And some features needed One-Hot transform for it.</li>
+<li>You can find all the process of this section under this cell.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Check-NaN-Values">Check NaN Values<a class="anchor-link" href="#Check-NaN-Values">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -14459,7 +14495,7 @@ memory usage: 3.1+ MB
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="df_seattle_clendar_raw:">df_seattle_clendar_raw:<a class="anchor-link" href="#df_seattle_clendar_raw:">&#182;</a></h4>
+<h5 id="df_seattle_clendar_raw:">df_seattle_clendar_raw:<a class="anchor-link" href="#df_seattle_clendar_raw:">&#182;</a></h5>
 </div>
 </div>
 </div>
@@ -14648,7 +14684,7 @@ dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="df_seattle_listings_raw:">df_seattle_listings_raw:<a class="anchor-link" href="#df_seattle_listings_raw:">&#182;</a></h4>
+<h5 id="df_seattle_listings_raw:">df_seattle_listings_raw:<a class="anchor-link" href="#df_seattle_listings_raw:">&#182;</a></h5>
 </div>
 </div>
 </div>
@@ -15001,7 +15037,7 @@ reviews_per_month|627
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="df_seattle_reviews:">df_seattle_reviews:<a class="anchor-link" href="#df_seattle_reviews:">&#182;</a></h4>
+<h5 id="df_seattle_reviews:">df_seattle_reviews:<a class="anchor-link" href="#df_seattle_reviews:">&#182;</a></h5>
 </div>
 </div>
 </div>
@@ -15049,7 +15085,7 @@ dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="df_boston_clendar:">df_boston_clendar:<a class="anchor-link" href="#df_boston_clendar:">&#182;</a></h4>
+<h5 id="df_boston_clendar:">df_boston_clendar:<a class="anchor-link" href="#df_boston_clendar:">&#182;</a></h5>
 </div>
 </div>
 </div>
@@ -15199,7 +15235,7 @@ dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="df_boston_listings:">df_boston_listings:<a class="anchor-link" href="#df_boston_listings:">&#182;</a></h4>
+<h5 id="df_boston_listings:">df_boston_listings:<a class="anchor-link" href="#df_boston_listings:">&#182;</a></h5>
 </div>
 </div>
 </div>
@@ -15562,7 +15598,7 @@ reviews_per_month|756
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="df_boston_reviews:">df_boston_reviews:<a class="anchor-link" href="#df_boston_reviews:">&#182;</a></h4>
+<h5 id="df_boston_reviews:">df_boston_reviews:<a class="anchor-link" href="#df_boston_reviews:">&#182;</a></h5>
 </div>
 </div>
 </div>
@@ -15610,7 +15646,20 @@ dtype: int64</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-1:-Is-there-any-pattern-between-price-and-review_scores_rating-?">Question 1: Is there any pattern between price and review_scores_rating ?<a class="anchor-link" href="#Question-1:-Is-there-any-pattern-between-price-and-review_scores_rating-?">&#182;</a></h3>
+<h3 id="Data-Modeling-(Q1)">Data Modeling (Q1)<a class="anchor-link" href="#Data-Modeling-(Q1)">&#182;</a></h3><ul>
+<li>In this section, I will select some features from dataset, plot it and find some pattern for them. Above all, I choose the feature list as 'id', 'city', 'price', 'security_deposit', 'review_scores_rating', 'review_scores_accuracy', 'review_scores_cleanliness', 'review_scores_checkin', 'review_scores_communication', 'review_scores_location', 'review_scores_value'. And have a look of the data, will find the feature of price and security_deposit needed some transform, because of the format of '$', '.', '.' was not allow to change type to int.</li>
+<li>After transform data, I plot the scatter of price and review_scores_rating, and want to find the pattern of the data.</li>
+<li>You can find the code of this section and plot after this cell.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Question-1:-Is-there-any-pattern-between-price-and-review_scores_rating-?">Question 1: Is there any pattern between price and review_scores_rating ?<a class="anchor-link" href="#Question-1:-Is-there-any-pattern-between-price-and-review_scores_rating-?">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -16055,7 +16104,7 @@ memory usage: 296.1+ KB
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Answer-1:">Answer 1:<a class="anchor-link" href="#Answer-1:">&#182;</a></h3><ul>
+<h3 id="Evaluate-the-Results-of-Q1:">Evaluate the Results of Q1:<a class="anchor-link" href="#Evaluate-the-Results-of-Q1:">&#182;</a></h3><ul>
 <li>After plot the data scatter between Price and Reviwe Scores Rating, it shows us something. It just like the house which price is higher and it's review scores rating's distribute is almost get higher at the same time. And you will find the price lower than $400's house, the proprobe of the score between 90 and 70 is very high. So, don't try to save any money, more expensive is more worth it.</li>
 </ul>
 
@@ -16066,7 +16115,19 @@ memory usage: 296.1+ KB
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Question-2:-Is-there-any-pattern-between-any-other-scores'-with-price-?">Question 2: Is there any pattern between any other scores' with price ?<a class="anchor-link" href="#Question-2:-Is-there-any-pattern-between-any-other-scores'-with-price-?">&#182;</a></h3>
+<h3 id="Data-Modeling-(Q2)">Data Modeling (Q2)<a class="anchor-link" href="#Data-Modeling-(Q2)">&#182;</a></h3><ul>
+<li>At this section, I try to find any pattern between price and other scores. I removed id, and city from the dataframe. I write a loop to plot the scatter between the price and any other score features.</li>
+<li>You can find all the code and plot after this cell.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Question-2:-Is-there-any-pattern-between-any-other-scores'-with-price-?">Question 2: Is there any pattern between any other scores' with price ?<a class="anchor-link" href="#Question-2:-Is-there-any-pattern-between-any-other-scores'-with-price-?">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -16270,7 +16331,7 @@ memory usage: 296.1+ KB
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Answer-2:">Answer 2:<a class="anchor-link" href="#Answer-2:">&#182;</a></h3><ul>
+<h3 id="Evaluate-the-Results-of-Q2:">Evaluate the Results of Q2:<a class="anchor-link" href="#Evaluate-the-Results-of-Q2:">&#182;</a></h3><ul>
 <li>After plot all the features between the price and scores. It seemed like there's only price/security_desposit plot have any affect with others, except the price/review_scores_rating plot we analysed before. From the plot of price/security_desposit, it seemed like the security_desposit is not any relation with price. Maybe the expensive price house was not care about any the security_desposit, and they may faced to any high level consumers.</li>
 </ul>
 
@@ -16281,7 +16342,19 @@ memory usage: 296.1+ KB
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Questiong-3:-Is-there-any-pattern-about-the-location-and-the-price-?">Questiong 3: Is there any pattern about the location and the price ?<a class="anchor-link" href="#Questiong-3:-Is-there-any-pattern-about-the-location-and-the-price-?">&#182;</a></h3>
+<h3 id="Data-Modeling-(Q3):">Data Modeling (Q3):<a class="anchor-link" href="#Data-Modeling-(Q3):">&#182;</a></h3><ul>
+<li>At this section, I try to find some pattern about the location and the price.</li>
+<li>You can find the code and plot after this cell.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Questiong-3:-Is-there-any-pattern-about-the-location-and-the-price-?">Questiong 3: Is there any pattern about the location and the price ?<a class="anchor-link" href="#Questiong-3:-Is-there-any-pattern-about-the-location-and-the-price-?">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -16627,8 +16700,19 @@ memory usage: 296.1+ KB
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Answer-3:">Answer 3:<a class="anchor-link" href="#Answer-3:">&#182;</a></h3><ul>
+<h3 id="Evaluate-the-Results-of-Q3:">Evaluate the Results of Q3:<a class="anchor-link" href="#Evaluate-the-Results-of-Q3:">&#182;</a></h3><ul>
 <li>At this question, it seemed like there's many expensive house in class 3 and 20. They are Seattle, and Boston's city center. They're always conveniced to shopping and traffic. So it worth this price.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Some-Interest-Points:">Some Interest Points:<a class="anchor-link" href="#Some-Interest-Points:">&#182;</a></h3><ul>
+<li>After all above, can find the price of citi cetner is more expensive than others. And the higher price house was worthy to rent, and the higher price house was not really about the security_desposit, because they may faced to any high level consumers. So if you want to buy a house in Seattle or Boston and rent it on Airbnb, I will suggest you select which are in the center of the city.</li>
 </ul>
 
 </div>
